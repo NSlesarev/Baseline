@@ -2,31 +2,29 @@
     display: flex;
     flex-direction: column;
 }
+
 .adminka__text {
-    margin: 3vw 0 2vw 0 ;
-    border: 5px solid green;
-    height: 10vw;
-    background: rgb(242, 242, 242);
+    margin: 3vw 0;
+    background: var(--color-background-white);
 }
-.text {
-    color: rgb(38, 38, 38);
-    font-family: Lato;
+
+.adminka__paragraph {
+    color: var(--color-black);
+    font-family: Lato, sans-serif;
     font-size: clamp(1.5vw, 1.5vw, 5.8vw);
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     text-align: left;
 }
 
-@media(max-width: 768px) {
+/* Мобильные стили */
+@media (max-width: 768px) {
     .adminka__text {
-        margin: 10vw 0 7vw 0 ;
-        border: 5px solid green;
-        height: 40vw;
-        background: rgb(242, 242, 242);
+        margin: 10vw 0 7vw 0;
     }
-    
-    .text {
+
+    .adminka__paragraph {
         font-size: clamp(3.5vw, 3.5vw, 9.8vw); 
     }
 }

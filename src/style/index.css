@@ -5,15 +5,25 @@
 @import url(/src/style/all-styles/footer-style.css);
 @import url(/src/style/all-styles/adminka-style.css);
 
+:root {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-green: #0a8e00;
+    --color-background-white: #f2f2f2;
+}
+
 .body {
     max-width: 1920px;
 }
 
 .wrapper {
-    max-width: 60.4vw;
+    display: flex;
+    flex-direction: column;
+    width: 60.4vw;
     margin: auto;
 }
 
+/* Стили для элементов, занимающих всю ширину */
 .full-width {
     width: 100vw;
     position: relative;
@@ -23,13 +33,10 @@
     margin-right: -50vw;
 }
 
-@media(max-width: 375px){
+/* Мобильные стили */
+@media (max-width: 768px) {
     .wrapper {
-        max-width: 100%;
+        width: 84.0vw;
         padding-inline: 7.8vw;
-    }
-
-    .full-width {
-      
     }
 }

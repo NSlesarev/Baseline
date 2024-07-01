@@ -1,0 +1,35 @@
+@import url(/src/style/all-styles/fonts.css);
+@import url(/src/style/all-styles/reset.css);
+@import url(/src/style/all-styles/header-style.css);
+@import url(/src/style/all-styles/technical-style.css);
+@import url(/src/style/all-styles/footer-style.css);
+@import url(/src/style/all-styles/adminka-style.css);
+
+.body {
+    max-width: 1920px;
+}
+
+.wrapper {
+    max-width: 60.4vw;
+    margin: auto;
+}
+
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+@media(max-width: 375px){
+    .wrapper {
+        max-width: 100%;
+        padding-inline: 7.8vw;
+    }
+
+    .full-width {
+      
+    }
+}

@@ -52,7 +52,12 @@
         letter-spacing: 0.04em;
     }
 
-    .technical__mail {
-        margin-top: 1.9vw;
+    .technical__tel, .technical__mail {
+        text-decoration: none;
+        color: var(--color-white);
+    }
+
+    .technical__tel {
+        margin-bottom: 1.8vw;
     }
 }

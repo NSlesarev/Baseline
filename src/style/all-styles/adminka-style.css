@@ -1,6 +1,7 @@
 .adminka {
     display: flex;
     flex-direction: column;
+    padding-inline: 19.8vw;
 }
 
 .adminka__text {
@@ -20,6 +21,10 @@
 
 /* Мобильные стили */
 @media (max-width: 768px) {
+    .adminka {
+        padding-inline: 0vw;
+    }
+    
     .adminka__text {
         margin: 10vw 0 7vw 0;
     }

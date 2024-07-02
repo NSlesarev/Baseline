@@ -19,8 +19,9 @@
 .wrapper {
     display: flex;
     flex-direction: column;
-    width: 60.4vw;
+    width: 100%;
     margin: auto;
+    overflow: hidden;
 }
 
 /* Стили для элементов, занимающих всю ширину */

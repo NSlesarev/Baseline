@@ -44,6 +44,8 @@
 
 .header__text {
     margin-left: 0.7vw;
+    text-decoration: none;
+    color: var(--color-green);
 }
 
 /* Мобильные стили */

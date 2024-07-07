@@ -34,7 +34,6 @@
     margin-right: -50vw;
 }
 
-/* Мобильные стили */
 @media (max-width: 768px) {
     .wrapper {
         width: 84.0vw;

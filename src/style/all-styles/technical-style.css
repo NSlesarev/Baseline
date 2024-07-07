@@ -25,7 +25,6 @@
     display: none;
 }
 
-/* Мобильные стили */
 @media (max-width: 768px) {
     .technical {
         background-image: url(/src/assets/img/background-mobile.jpeg);

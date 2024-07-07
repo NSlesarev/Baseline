@@ -19,7 +19,6 @@
     text-align: left;
 }
 
-/* Мобильные стили */
 @media (max-width: 768px) {
     .adminka {
         padding-inline: 0vw;

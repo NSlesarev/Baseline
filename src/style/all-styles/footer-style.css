@@ -46,7 +46,6 @@
     display: none;
 }
 
-/* Мобильные стили */
 @media (max-width: 768px) {
     .footer__content {
         flex-direction: column;

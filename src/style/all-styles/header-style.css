@@ -48,7 +48,6 @@
     color: var(--color-green);
 }
 
-/* Мобильные стили */
 @media (max-width: 768px) {
     .header {
         width: 84.0vw;
